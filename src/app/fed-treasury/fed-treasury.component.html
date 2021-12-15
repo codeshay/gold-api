@@ -1,0 +1,20 @@
+<table>
+    <tr>
+        <th>Location</th>
+        <th>Facility Type</th>
+        <th>Gold Form</th>
+        <th>Onces</th>
+        <th>Date</th>
+    </tr>
+   <tr *ngFor="let reserve of goldReserves">
+       <td>{{reserve.location_desc}}</td>
+       <td>{{reserve.facility_desc}}</td>
+       <td>{{reserve.form_desc}}</td>
+       <td>{{reserve.fine_troy_ounce_qty}}</td>
+       <td>{{reserve.record_date}}</td>
+   </tr> 
+</table>   
+ 
+
+
+
